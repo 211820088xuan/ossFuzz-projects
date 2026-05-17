@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -O3 -DNDEBUG CMakeFiles/test_nthreads.dir/test_nthreads.c.o -o test_nthreads   -L/root/gyx/sh/inbox/c-blosc/blosc  -Wl,-rpath,/root/gyx/sh/inbox/c-blosc/blosc ../blosc/libblosc_testing.so 

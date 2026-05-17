@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -O3 -DNDEBUG CMakeFiles/bench.dir/bench.c.o -o bench  -Wl,-rpath,/root/gyx/sh/inbox/c-blosc/blosc -lrt ../blosc/libblosc.so.1.21.7 

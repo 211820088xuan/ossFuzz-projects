@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_clock_interface
+Description: Abseil clock_interface library
+URL: https://abseil.io/
+Version: head
+Requires: absl_time = head, absl_config = head, absl_core_headers = head, absl_no_destructor = head, absl_nullability = head, absl_raw_logging_internal = head, absl_synchronization = head
+Libs: -L${libdir}  -labsl_clock_interface 
+Cflags: -I${includedir} -DNOMINMAX

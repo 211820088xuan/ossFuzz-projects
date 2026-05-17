@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_linked_hash_set
+Description: Abseil linked_hash_set library
+URL: https://abseil.io/
+Version: head
+Requires: absl_container_common = head, absl_config = head, absl_core_headers = head, absl_flat_hash_set = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

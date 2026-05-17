@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -O3 -DNDEBUG CMakeFiles/test_compressor.dir/test_compressor.c.o -o test_compressor   -L/root/gyx/sh/inbox/c-blosc/blosc  -Wl,-rpath,/root/gyx/sh/inbox/c-blosc/blosc ../blosc/libblosc_testing.so 

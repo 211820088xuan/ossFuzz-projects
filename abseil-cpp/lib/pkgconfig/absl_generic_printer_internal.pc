@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_generic_printer_internal
+Description: Abseil generic_printer_internal library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_strings = head, absl_str_format = head, absl_log_internal_container = head, absl_requires_internal = head
+Libs: -L${libdir}  -labsl_generic_printer_internal 
+Cflags: -I${includedir} -DNOMINMAX

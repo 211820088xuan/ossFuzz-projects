@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_source_location
+Description: Abseil source_location library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_core_headers = head, absl_nullability = head
+Libs: -L${libdir}  -labsl_source_location 
+Cflags: -I${includedir} -DNOMINMAX

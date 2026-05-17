@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/gyx/sh/inbox/c-blosc/internal-complibs/zstd-1.5.6/common/portability_macros.h
+cet.h
+-
+
+/root/gyx/sh/inbox/c-blosc/internal-complibs/zstd-1.5.6/decompress/huf_decompress_amd64.S
+../common/portability_macros.h
+/root/gyx/sh/inbox/c-blosc/internal-complibs/zstd-1.5.6/common/portability_macros.h
+

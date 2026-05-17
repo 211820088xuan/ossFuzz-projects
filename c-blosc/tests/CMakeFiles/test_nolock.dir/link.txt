@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -O3 -DNDEBUG CMakeFiles/test_nolock.dir/test_nolock.c.o -o test_nolock   -L/root/gyx/sh/inbox/c-blosc/blosc  -Wl,-rpath,/root/gyx/sh/inbox/c-blosc/blosc ../blosc/libblosc_testing.so 

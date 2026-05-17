@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -O3 -DNDEBUG CMakeFiles/fuzz_decompress.dir/fuzz_decompress.c.o CMakeFiles/fuzz_decompress.dir/standalone.c.o -o decompress_fuzzer   -L/root/gyx/sh/inbox/c-blosc/blosc  -Wl,-rpath,/root/gyx/sh/inbox/c-blosc/blosc ../../blosc/libblosc.a 
